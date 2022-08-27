@@ -1,3 +1,5 @@
+//Differential LR DSP. Output signal = L - R
+
 #include <cerrno>
 #include <cstring>
 #include <fstream>
@@ -6,7 +8,7 @@
 #include <alsa/asoundlib.h>
 
 //Audio File Directory
-#define AUDIO_FILE_DIR "/media/rafael-user/HDD2/Common/AudioFiles/RAW/NeverGonnaGiveYouUp_stereo_44100_16bit.raw"
+#define AUDIO_FILE_DIR "/home/username/Music/audio_file.raw"
 
 //System ID for Audio Device. Set to "default" to use the default system output.
 #define AUDIO_DEV "plughw:0,0"

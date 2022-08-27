@@ -3,7 +3,7 @@ Some user-level runtime codes for GNU-Linux based systems. These codes performs 
 
 These codes use headerless (.raw) audio files as an input audio signal. They're meant to be used playing a stereo, 44.1 kHz 16bit audio file. Different audio signal parameters might not work properly on these codes.
 
-These codes require the asoundlib headers and build resources. In Debian based system, these resources can be installed using command "sudo apt-get install libasound2-dev".
+These codes require the asoundlib headers and build resources. In Debian based systems, these resources can be installed using command "sudo apt-get install libasound2-dev".
 
 When compiling, 2 APIs must be manualy linked: "asound" and "pthread" Example: g++ main.cpp -lpthread -lasound -o executable
 
